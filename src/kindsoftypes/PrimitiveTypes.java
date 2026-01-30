@@ -61,7 +61,7 @@ public class PrimitiveTypes {
 
         // What will this print? Think about it, then run it and see:
 
-        int x = 1;
+        byte x = 1;
         System.out.println("x=" + x);
         x *= 100;
         System.out.println("x=" + x);
@@ -74,14 +74,14 @@ public class PrimitiveTypes {
         // (In VS Code, you can comment/uncomment many lines at once by selecting them, then
         // pressing command-slash (Mac) or ctrl-slash (Windows).)
 
-        // x *= 100;
-        // System.out.println("x=" + x);
-        // x *= 100;
-        // System.out.println("x=" + x);
-        // x *= 100;
-        // System.out.println("x=" + x);
-        // x *= 100;
-        // System.out.println("x=" + x);
+        x *= 100;
+        System.out.println("x=" + x);
+        x *= 100;
+        System.out.println("x=" + x);
+        x *= 100;
+        System.out.println("x=" + x);
+        x *= 100;
+        System.out.println("x=" + x);
 
         // wat?! (This is programmer slang for “what??” but with extra disbelief.)
         //
